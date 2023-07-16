@@ -21,7 +21,7 @@ Usando las herramientas de un ***Data Analyst*** se confeccionara un análisis c
 
 `EDA` (Exploratory Data Analysis)
 
-Como se menciono al inicio se usaron los dataset de la pagina de Enacom (ver carpeta Data de este repositorio) en un inicio, para generar una primera exploracion y buscar insights que permitieran conlusiones y nuevas busquedas.
+Como se menciono al inicio se usaron los dataset de la pagina de Enacom ([Datasets](Data)) en un inicio, para generar una primera exploracion y buscar insights que permitieran conlusiones y nuevas busquedas.
 Todos los conjuntos de datos tenian como fecha base el año 2014 y finalizaban en el tercer trimestre del 2022.
 Verificando en Python el tipo de informacion que brindaban los datasets y poniendo en contexto lo que se estaba revisando, decidi:
 
@@ -29,7 +29,7 @@ Verificando en Python el tipo de informacion que brindaban los datasets y ponien
 
 - Hacer foco en datos de los ultimos tres años, ya que, investigando acerca del desarrollo de la banda ancha en el país y los avances de las tecnologias, ese recorte me parecio mas relevante para un analisis del panorama actual.
 
-Luego empece a explorar los datasets y visualizarlos mediante graficas realizadas con las librerias matplotlib y seaborn, tambien en Python. De lo revisado mediante visualizacion y algunas interconexiones de datos, pude empezar a trazar Kpis para poder medir lo que se estaba investigando.
+Luego empece a explorar los datasets y visualizarlos mediante graficas realizadas con las librerias matplotlib y seaborn, tambien en Python. De lo revisado mediante visualizacion y algunas interconexiones de datos, pude empezar a trazar Kpis para poder medir lo que se estaba investigando.([ver Eda](Eda.ipynb))
 
 El primero que surgio fue : `Demanda del acceso a internet residencial en Argentina`,analizando el dataset de Acceso a Internet por hogar y agregando datos de muestreo del [INDEC](https://www.indec.gob.ar/indec/web/Nivel4-Tema-4-26-153)para cruzar informacion sobre internet móvil. Se analizó el tercer trimmestre de los ultimos dos años (2021-2022) para poder comparar mismos periodos. Lo mas notable es el aumento de la demanda interanual no solo en el acceso a internet fijo sino tambien en internet movil. 
 
